@@ -34,3 +34,4 @@ Next, just replace the existing "Custom.css" file with this one. No restart need
 
 ### Preview
 
+![solarized dark preview](https://raw.github.com/tricinel/chrome-dev-solarized-dark/master/chrome-dev-preview.png)
