@@ -1,0 +1,356 @@
+/**********************************************/
+/*
+/* Solarized Dark
+/*
+/* For how to install, or more themes, check out:
+/* http://darcyclarke.me/design/skin-your-chrome-inspector/
+/*
+/* Color scheme is based on http://ethanschoonover.com/solarized
+/*
+/* For usage and code clone the git repo:
+/* git clone git@github.com:tricinel/chrome-dev-solarized-dark.git
+/*
+/**********************************************/
+
+/* Main Window */
+
+#-webkit-web-inspector #main {
+  background-color:#042029 !important;
+  color:#c6c6c6;
+}
+
+/*Toolbar*/
+
+#-webkit-web-inspector #toolbar {
+  background-image:none !important;
+  background-color:#383c3e !important;
+  border-top:none !important;
+  border-bottom-color: #01c7fd !important;
+  border-bottom-width: 2px !important;
+}
+
+#-webkit-web-inspector #toolbar .toolbar-label {
+  color:#eee !important;
+}
+
+#-webkit-web-inspector button:hover {
+  background-color: #454848 !important;
+}
+
+#-webkit-web-inspector .close-left button:hover {
+  background-color:#383c3e !important;
+}
+
+/* Elements */
+
+#-webkit-web-inspector #elements-content .highlight {
+  color: #d4d4d4;
+}
+
+#-webkit-web-inspector #elements-content .selected {
+  background: #15414f !important;
+}
+
+#-webkit-web-inspector .outline-disclosure ol:focus li.selected .selection {
+  background: #15414f !important;
+}
+
+#-webkit-web-inspector #elements-content .parent::before {
+  content: url(chrome-devtools://devtools/Images/treeRightTriangleWhite.png) !important;
+  position: relative;
+  z-index: 999;
+}
+
+#-webkit-web-inspector #elements-content .parent.expanded::before {
+  content: url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) !important;
+}
+
+/* Resources */
+#-webkit-web-inspector .resources .split-view-sidebar-left {
+  background-color:#042029 !important;
+  color:#c6c6c6 !important;
+}
+
+#-webkit-web-inspector .resources .split-view-sidebar-left .base-storage-tree-element-title {
+  color:#c6c6c6 !important;
+}
+
+/* Network */
+
+#-webkit-web-inspector #network-container table.header {
+  background-color:#525252 !important;
+  color:#202020 !important;
+}
+
+#-webkit-web-inspector #network-container .network-log-grid.data-grid tr.filler {
+  background-color:#383839 !important;
+  color:#eee !important;
+}
+
+/* Status bar */
+
+#-webkit-web-inspector #main-status-bar {
+  background-image:none !important;
+  background-color:#383839 !important;
+  color:#eee !important;
+}
+
+#-webkit-web-inspector #main-status-bar .glyph {
+  background-color:#eee !important;
+}
+
+#-webkit-web-inspector #main-status-bar button.status-bar-item .glyph.shadow {
+  background-color:#2d3031 !important;
+}
+
+#-webkit-web-inspector #main-status-bar .scope-bar li {
+  color:#eee !important;
+  text-shadow:none !important;
+}
+
+/* Styles */
+
+#-webkit-web-inspector .styles-section.computed-style .properties li.parent::before {
+  content: url(chrome-devtools://devtools/Images/treeRightTriangleWhite.png) !important;
+}
+
+#-webkit-web-inspector .styles-section.computed-style .properties li.parent.expanded::before {
+  content: url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) !important;
+}
+
+#-webkit-web-inspector .styles-section .selector-matches {
+  color:#2484d2 !important;
+}
+
+#-webkit-web-inspector .styles-section.read-only {
+  background-color:#042029 !important;
+}
+
+#-webkit-web-inspector .pane > .title {
+  background-image:none !important;
+  background-color:#383839 !important;
+  color:#eee !important;
+  text-shadow:none!important;
+}
+
+#-webkit-web-inspector .sidebar-separator {
+  background-image: none !important;
+  background-color:#393939 !important;
+  color:#ccc !important;
+  text-shadow:none !important;
+}
+
+#-webkit-web-inspector .section .header, #-webkit-web-inspector .event-bars .event-bar .header .title {
+  color:#ccc !important;
+  text-shadow:none !important;
+}
+
+#-webkit-web-inspector .properties-tree li.parent::before, #-webkit-web-inspector .section .header::before, #-webkit-web-inspector .pane > .title::before, #-webkit-web-inspector .event-bars .event-bar .header::before {
+  content: url(chrome-devtools://devtools/Images/treeRightTriangleWhite.png) !important;
+}
+
+#-webkit-web-inspector .properties-tree li.parent.expnaded::before, #-webkit-web-inspector .section.expanded .header::before, #-webkit-web-inspector .pane.expanded > .title::before, #-webkit-web-inspector .event-bars .event-bar.expanded .header::before {
+  content: url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) !important;
+}
+
+/* Console */
+
+#-webkit-web-inspector #console-view .outline-disclosure li.parent::before {
+  content: url(chrome-devtools://devtools/Images/treeRightTriangleWhite.png) !important;
+}
+
+#-webkit-web-inspector #console-view .outline-disclosure li.parent.expanded::before {
+  content: url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) !important;
+}
+
+#-webkit-web-inspector #console-view {
+  position: absolute;
+  background: #042029 !important;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #a7d473 !important;
+  overflow-y: auto;
+}
+
+#-webkit-web-inspector .console-formatted-object, .console-formatted-node {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  color: #eec981 !important;
+  padding:10px 0px 10px 0px;
+}
+
+#-webkit-web-inspector .console-formatted-number {
+  color: #3f9bd1 !important;
+}
+
+#-webkit-web-inspector .console-formatted-string, .console-formatted-regexp {
+  color: #d97640 !important;
+  white-space: pre;
+}
+
+#-webkit-web-inspector .console-formatted-null, .console-formatted-undefined {
+  color: #9acbfb !important;
+}
+
+#-webkit-web-inspector .console-group-messages .section .header::before {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 8px;
+  height: 8px;
+  content: url(chrome-devtools://devtools/Images/treeRightTriangleWhite.png) !important;
+}
+
+#-webkit-web-inspector .console-group-messages .section.expanded .header::before {
+  content: url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) !important;
+}
+
+/* Messages */
+
+#-webkit-web-inspector #console-messages {
+  font-family: 'DroidSansMono', Menlo, monospace !important;
+  background: #242424;
+  color: #AAA !important;
+}
+
+#-webkit-web-inspector #console-messages a {
+  color: #888 !important;
+}
+
+#-webkit-web-inspector #console-messages a:hover {
+  color: #999 !important;
+}
+
+#-webkit-web-inspector #console-messages .console-message {
+  color: #f1f1f1 !important;
+}
+
+#-webkit-web-inspector #console-messages .console-message, #-webkit-web-inspector .console-user-command {
+  border-top: none !important;
+  border-bottom: 1px solid #444 !important;
+}
+
+#-webkit-web-inspector #console-messages .console-user-command > .console-message-text {
+  color: #ffd2a7 !important;
+}
+
+#-webkit-web-inspector .console-formatted-number {
+  color: #ff73fd !important;
+}
+
+#-webkit-web-inspector #console-messages .console-formatted-string {
+  color: #a8ff60 !important;
+}
+
+#-webkit-web-inspector #console-messages .console-formatted-object {
+  color: #7c7c7c !important;
+}
+
+#-webkit-web-inspector #console-messages .console-formatted-function {
+  color: #fff !important;
+}
+
+#-webkit-web-inspector #console-messages .console-formatted-regexp {
+  color: #e9c062 !important;
+}
+
+#-webkit-web-inspector #console-messages .console-group-messages .section .header .title {
+  color: #f1f1f1 !important;
+}
+
+#-webkit-web-inspector #console-messages .section .properties .name, #-webkit-web-inspector .event-properties .name {
+  color: #96cbfe !important;
+}
+
+#-webkit-web-inspector #console-messages .console-group-messages .section .header::before,
+#-webkit-web-inspector #console-messages .properties-tree li.parent::before,
+#-webkit-web-inspector .outline-disclosure li.parent::before {
+  content: url(chrome-devtools://devtools/Images/treeRightTriangleWhite.png) #242424 !important;
+}
+
+#-webkit-web-inspector .console-formatted-object, #-webkit-web-inspector .console-formatted-node, #-webkit-web-inspector .console-formatted-array {
+  color:#ccc !important;
+}
+
+/* HTML */
+
+#-webkit-web-inspector .webkit-html-comment {
+  color: #8c8c8c !important;
+}
+
+#-webkit-web-inspector .webkit-html-tag {
+  color: #278bd2 !important;
+}
+
+#-webkit-web-inspector .webkit-html-attribute-name {
+  color: #93a187 !important;
+}
+
+#-webkit-web-inspector .webkit-html-attribute-value {
+  color: #278c6d !important;
+}
+
+#-webkit-web-inspector .webkit-html-text-node {
+  color: #c2c3c3 !important;
+}
+
+#-webkit-web-inspector .webkit-html-css-node {
+  color: #c2c3c3 !important;
+}
+
+#-webkit-web-inspector .webkit-html-js-node {
+  color: #c2c3c3 !important;
+}
+
+#-webkit-web-inspector .webkit-javascript-keyword {
+  color: #278bd2 !important;
+}
+
+#-webkit-web-inspector .webkit-javascript-ident {
+  color: #278bd2 !important;
+}
+
+#-webkit-web-inspector .webkit-javascript-string {
+  color: #278c6d !important;
+}
+
+/* CSS */
+
+#-webkit-web-inspector .webkit-css-comment {
+  color:#576d75 !important;
+}
+
+#-webkit-web-inspector .webkit-css-url {
+  color:#248c86 !important;
+}
+
+#-webkit-web-inspector .webkit-css-color {
+  color:#248c86 !important;
+}
+
+#-webkit-web-inspector .webkit-css-selector {
+  color:#268bd2 !important;
+}
+
+#-webkit-web-inspector .webkit-css-property {
+  color:#248c86 !important;
+}
+
+#-webkit-web-inspector .webkit-css-number {
+  color:#248c86 !important;
+}
+
+#-webkit-web-inspector .webkit-css-keyword {
+  color:#a57517 !important;
+}
+
+#-webkit-web-inspector .webkit-css-string {
+
+}
+
+#-webkit-web-inspector .webkit-css-important {
+  color:#d02020;
+}
