@@ -1,0 +1,47 @@
+// Main window
+
+.sidebar-separator {
+  background-color: $base1 !important;
+}
+
+.sidebar-tree-section {
+  color: $base3 !important;
+  text-shadow: none !important;
+}
+
+.tabbed-pane-content {
+  background-color: darken($base01, 10%) !important;
+}
+
+.webkit-html-external-link,
+.webkit-html-resource-link {
+  color: $external-link !important;
+}
+
+// Styles section
+
+.styles-section {
+  .selector-matches {
+    color: $cyan !important;
+  }
+
+  .properties {
+    color: $base3;
+  }
+
+  .selector {
+    color: $base02 !important;
+  }
+}
+
+// Event listeners
+
+.event-bars {
+  .event-bar .header .title {
+    text-shadow: none !important;
+  }
+
+  .event-properties .name {
+    color: $cyan !important;
+  }
+}

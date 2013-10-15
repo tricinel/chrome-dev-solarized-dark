@@ -1,0 +1,55 @@
+// CSS
+
+.webkit-css-comment,
+.CodeMirror .cm-css-comment {
+  color: $css-comment !important;
+}
+
+.webkit-css-url,
+.CodeMirror .cm-css-url {
+  color: $css-url !important;
+}
+
+.webkit-css-color,
+.CodeMirror .cm-css-color {
+  color: $css-color !important;
+}
+
+.webkit-css-selector,
+.CodeMirror .cm-css-selector {
+  color: $css-selector !important;
+}
+
+.webkit-css-property,
+.CodeMirror .cm-css-property {
+  color: $css-property !important;
+}
+
+.webkit-css-number,
+.CodeMirror .cm-css-number {
+  color: $css-number !important;
+}
+
+.webkit-css-keyword,
+.CodeMirror .cm-css-keyword {
+  color: $css-keyword !important;
+}
+
+.webkit-css-important,
+.CodeMirror .cm-css-important {
+  color: $css-important;
+}
+
+.webkit-css-qualifier,
+.CodeMirror .cm-css-qualifier,
+.CodeMirror .cm-css-variable-2 {
+  color: $css-selector !important;
+}
+
+.CodeMirror .cm-css-operator {
+  color: $base1 !important;
+}
+
+.CodeMirror {
+  color: $base01 !important;
+}

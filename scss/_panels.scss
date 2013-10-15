@@ -1,0 +1,13 @@
+@import "_elements";
+@import "_console";
+@import "_drawer";
+@import "_resources";
+
+.panel {
+  &.audits,
+  &.profiles {
+    .panel-enabler-view {
+      background-color: $base3 !important;
+    }
+  }
+}

@@ -1,0 +1,65 @@
+// Define the main colors
+// ----------------------------
+
+// Dark background
+$base03 : #002b36;
+$base02 : #073642;
+
+// Content grays
+$base01 : #586e75;
+$base00 : #657b83;
+$base0  : #839496;
+$base1  : #93a1a1;
+
+// Content colors
+$yellow : #b58900;
+$orange : #cb4b16;
+$red    : #dc322f;
+$magenta: #d33682;
+$violet : #6c71c4;
+$blue   : #268bd2;
+$cyan   : #2aa198;
+$green  : #859900;
+
+// Light background
+$base2  : #eee8d5;
+$base3  : #fdf6e3;
+
+// Associate the colors with the correct types
+// ----------------------------
+
+// Dark backgrounds
+// ----------------------------
+
+
+// WINDOW
+$bgColor:                      $base03;
+$textColor:                    $base1;
+$bgColorHighlight:             lighten($base03,4%);
+
+// JAVASCRIPT
+
+// HTML
+
+$html-comment:                  $base1;
+$html-tag:                      $cyan;
+$html-attribute-name:           $blue;
+$html-attribute-value:          $yellow;
+$html-text-node:                $base3;
+$html-css-node:                 $base3;
+$html-js-node:                  $base3;
+
+// CSS
+
+$css-keyword:                   $orange;
+$css-property:                  $base1;
+$css-selector:                  $blue;
+$css-color:                     $green;
+$css-url:                       $green;
+$css-comment:                   $base0;
+$css-number:                    $green;
+$css-important:                 $red;
+
+// Other
+
+$external-link:                 $blue;

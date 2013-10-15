@@ -1,0 +1,40 @@
+// The bottom bar and drawer
+
+#main-status-bar,
+#floating-status-bar-container {
+  background-image: none !important;
+  background-color: $base0 !important;
+  border-bottom: none !important;
+  border-top-color: $blue !important;
+  border-top-width: 2px !important;
+
+  .crumbs {
+    color: $base03 !important;
+    text-shadow: none !important;
+
+    .crumb.selected {
+      text-shadow: none !important;
+    }
+  }
+
+  select.status-bar-item,
+  .scope-bar li {
+    color: $base03 !important;
+    text-shadow: none !important;
+  }
+
+  .scope-bar li {
+    &.selected,
+    &:hover,
+    &:active {
+      text-shadow: none !important;
+    }
+  }
+}
+
+#drawer {
+  #drawer-body {
+    background-color: $base02;
+    color: $base2 !important;
+  }
+}

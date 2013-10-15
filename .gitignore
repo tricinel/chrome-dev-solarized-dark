@@ -1,0 +1,13 @@
+# Ignore OS Related/Generic
+Thumbs.db
+Desktop.ini
+._*
+Icon?
+.DS_Store
+*.bak
+*.tmproj
+*.tmproject
+*~
+
+node_modules/
+.sass-cache/

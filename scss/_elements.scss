@@ -1,0 +1,21 @@
+// Elements Panel
+
+#elements-content {
+
+  .hovered,
+  .selected {
+    background-color: $bgColorHighlight !important;
+  }
+
+  .highlight {
+    color: $base1 !important;
+  }
+
+  .selected {
+    background-color: $bgColorHighlight !important;
+  }
+
+  ol {
+
+  }
+}

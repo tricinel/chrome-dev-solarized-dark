@@ -1,0 +1,26 @@
+// Console
+
+.panel.console {
+  background-color: $base02;
+  color: $base2 !important;
+}
+
+.console-formatted-object,
+.console-formatted-node,
+.console-formatted-array {
+  color: $orange !important;
+}
+
+.console-formatted-object .name {
+  color: $cyan !important;
+}
+
+
+
+// Messages
+
+#console-messages {
+  .console-user-command > .console-message-text {
+    color: $base3 !important;
+  }
+}
