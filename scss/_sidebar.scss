@@ -21,6 +21,9 @@
 // Styles section
 
 .styles-section {
+  .header .subtitle {
+    color: $base02 !important;
+  }
   .selector-matches {
     color: $cyan !important;
   }
