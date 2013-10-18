@@ -39,6 +39,13 @@ $bgColorHighlight:             lighten($base03,4%);
 
 // JAVASCRIPT
 
+$javascript-keyword:                   $blue;
+$javascript-comment:                   $base1;
+$javascript-number:                    $orange;
+$javascript-string:                    $yellow;
+$javascript-regexp:                    $red;
+$javascript-ident:                     $cyan;
+
 // HTML
 
 $html-comment:                  $base1;

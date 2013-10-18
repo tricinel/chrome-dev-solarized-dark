@@ -15,10 +15,13 @@
 @import "_colors";
 
 body#-webkit-web-inspector {
-  @import "_window";
-  @import "_panels";
-  @import "_html";
-  @import "_css";
-  @import "_sidebar";
-  @import "_helpwindow";
+  @import
+    "_window",
+    "_panels",
+    "_html",
+    "_css",
+    "_javascript",
+    "_codemirror",
+    "_sidebar",
+    "_helpwindow";
 }

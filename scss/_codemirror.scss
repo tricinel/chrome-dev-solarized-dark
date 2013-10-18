@@ -1,0 +1,19 @@
+// CodeMirror
+
+.CodeMirror {
+  pre {
+    color: $base1 !important;
+  }
+
+  .cm-xml-tag {
+    color: $green !important;
+  }
+
+  .cm-xml-attribute {
+    color: $blue !important;
+  }
+
+  .cm-xml-string {
+    color: $yellow !important;
+  }
+}

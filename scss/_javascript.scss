@@ -1,0 +1,30 @@
+// Javascript
+
+.webkit-javascript-ident {
+  color: $javascript-ident !important;
+}
+
+.webkit-javascript-keyword,
+.CodeMirror .cm-js-keyword {
+  color: $javascript-keyword !important;
+}
+
+.webkit-javascript-comment,
+.CodeMirror .cm-js-comment {
+  color: $javascript-comment !important;
+}
+
+.webkit-javascript-string,
+.CodeMirror .cm-js-string {
+  color: $javascript-string !important;
+}
+
+.webkit-javascript-number,
+.CodeMirror .cm-js-number {
+  color: $javascript-number !important;
+}
+
+.webkit-javascript-regexp,
+.CodeMirror .cm-js-regexp {
+  color: $javascript-regexp !important;
+}
