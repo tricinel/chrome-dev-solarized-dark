@@ -10,7 +10,7 @@
 }
 
 .tabbed-pane-content {
-  background-color: darken($base01, 10%) !important;
+  background-color: lighten($bgColor, 5%) !important;
 }
 
 .webkit-html-external-link,

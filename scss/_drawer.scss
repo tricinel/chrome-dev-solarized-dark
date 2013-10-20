@@ -9,7 +9,7 @@
   border-top-width: 2px !important;
 
   .crumbs {
-    color: $base03 !important;
+    color: $bgColor !important;
     text-shadow: none !important;
 
     .crumb.selected {
@@ -19,7 +19,7 @@
 
   select.status-bar-item,
   .scope-bar li {
-    color: $base03 !important;
+    color: $bgColor !important;
     text-shadow: none !important;
   }
 

@@ -33,9 +33,15 @@ $base3  : #fdf6e3;
 
 
 // WINDOW
+
 $bgColor:                      $base03;
 $textColor:                    $base1;
 $bgColorHighlight:             lighten($base03,4%);
+
+// Tabs
+
+$tabBgColor:                   darken($base01, 10%);
+$tabTextColor:                 $base2;
 
 // JAVASCRIPT
 

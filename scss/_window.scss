@@ -10,19 +10,19 @@
 .tabbed-pane-header,
 .sidebar {
   background-image: none !important;
-  background-color: darken($base01, 10%) !important;
+  background-color: $tabBgColor !important;
   border-top: none !important;
   border-bottom-color: $blue !important;
   border-bottom-width: 2px !important;
 
   .toolbar-label {
-    color: $base2 !important;
+    color: $tabTextColor !important;
   }
 }
 
 .tabbed-pane-header-tab.selected {
   background-color: transparent !important;
-  border: 1px solid darken($base01,10%) !important;
+  border: 1px solid $tabBgColor !important;
   border-top: 0!important;
 }
 
