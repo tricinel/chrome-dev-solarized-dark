@@ -28,3 +28,8 @@
 .CodeMirror .cm-js-regexp {
   color: $javascript-regexp !important;
 }
+
+.webkit-javascript-variable,
+.CodeMirror .cm-js-variable {
+  color: $javascript-variable !important;
+}

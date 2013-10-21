@@ -21,10 +21,8 @@
 // Styles section
 
 .styles-section {
+  .selector-matches,
   .header .subtitle {
-    color: $base02 !important;
-  }
-  .selector-matches {
     color: $cyan !important;
   }
 
@@ -33,7 +31,7 @@
   }
 
   .selector {
-    color: $base02 !important;
+    color: $html-comment !important;
   }
 }
 
