@@ -13,8 +13,8 @@
 /**********************************************/
 /* line 3, scss/_window.scss */
 body#-webkit-web-inspector #main {
-  background-color: #002b36 !important;
-  color: #93a1a1;
+  background-color: #fdf6e3 !important;
+  color: #002b36;
 }
 /* line 11, scss/_window.scss */
 body#-webkit-web-inspector #toolbar,
@@ -45,7 +45,7 @@ body#-webkit-web-inspector .tabbed-pane-placeholder {
 /* line 6, scss/_elements.scss */
 body#-webkit-web-inspector #elements-content .hovered,
 body#-webkit-web-inspector #elements-content .selected {
-  background-color: #003b4a !important;
+  background-color: #fefcf6 !important;
 }
 /* line 10, scss/_elements.scss */
 body#-webkit-web-inspector #elements-content .highlight {
@@ -53,7 +53,7 @@ body#-webkit-web-inspector #elements-content .highlight {
 }
 /* line 14, scss/_elements.scss */
 body#-webkit-web-inspector #elements-content .selected {
-  background-color: #003b4a !important;
+  background-color: #fefcf6 !important;
 }
 /* line 3, scss/_console.scss */
 body#-webkit-web-inspector .panel.console {
@@ -86,7 +86,7 @@ body#-webkit-web-inspector #floating-status-bar-container {
 /* line 11, scss/_drawer.scss */
 body#-webkit-web-inspector #main-status-bar .crumbs,
 body#-webkit-web-inspector #floating-status-bar-container .crumbs {
-  color: #002b36 !important;
+  color: #fdf6e3 !important;
   text-shadow: none !important;
 }
 /* line 15, scss/_drawer.scss */
@@ -99,7 +99,7 @@ body#-webkit-web-inspector #main-status-bar select.status-bar-item,
 body#-webkit-web-inspector #main-status-bar .scope-bar li,
 body#-webkit-web-inspector #floating-status-bar-container select.status-bar-item,
 body#-webkit-web-inspector #floating-status-bar-container .scope-bar li {
-  color: #002b36 !important;
+  color: #fdf6e3 !important;
   text-shadow: none !important;
 }
 /* line 29, scss/_drawer.scss */
@@ -265,7 +265,7 @@ body#-webkit-web-inspector .sidebar-tree-section {
 }
 /* line 12, scss/_sidebar.scss */
 body#-webkit-web-inspector .tabbed-pane-content {
-  background-color: #003f50 !important;
+  background-color: #fffefb !important;
 }
 /* line 17, scss/_sidebar.scss */
 body#-webkit-web-inspector .webkit-html-external-link,

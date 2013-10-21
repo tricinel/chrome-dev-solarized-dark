@@ -28,15 +28,28 @@ $base3  : #fdf6e3;
 // Associate the colors with the correct types
 // ----------------------------
 
-// Dark backgrounds
+// Style the theme - either dark or light
 // ----------------------------
 
+$theme: light;
 
-// WINDOW
+// Initialize the values as null
+// ----------------------------
+$bgColor:                      null;
+$textColor:                    null;
+$bgColorHighlight:             null;
 
-$bgColor:                      $base03;
-$textColor:                    $base1;
-$bgColorHighlight:             lighten($base03,4%);
+@if $theme == dark {
+  // Dark backgrounds
+  $bgColor:                      $base03;
+  $textColor:                    $base1;
+  $bgColorHighlight:             lighten($base03,4%);
+} @else {
+  // Light backgrounds
+  $bgColor:                      $base3;
+  $textColor:                    $base03;
+  $bgColorHighlight:             lighten($base3,4%);
+}
 
 // Tabs
 
