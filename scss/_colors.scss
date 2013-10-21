@@ -31,25 +31,13 @@ $base3  : #fdf6e3;
 // Style the theme - either dark or light
 // ----------------------------
 
-$theme: light;
+$theme: dark;
 
 // Initialize the values as null
 // ----------------------------
 $bgColor:                      null;
 $textColor:                    null;
 $bgColorHighlight:             null;
-
-@if $theme == dark {
-  // Dark backgrounds
-  $bgColor:                      $base03;
-  $textColor:                    $base1;
-  $bgColorHighlight:             lighten($base03,4%);
-} @else {
-  // Light backgrounds
-  $bgColor:                      $base3;
-  $textColor:                    $base03;
-  $bgColorHighlight:             lighten($base3,4%);
-}
 
 // Tabs
 
@@ -86,7 +74,22 @@ $css-url:                       $green;
 $css-comment:                   $base0;
 $css-number:                    $green;
 $css-important:                 $red;
+$css-value:                     null;
 
 // Other
 
 $external-link:                 $blue;
+
+@if $theme == dark {
+  // Dark backgrounds
+  $bgColor:                      $base03;
+  $textColor:                    $base1;
+  $bgColorHighlight:             lighten($base03,4%);
+  $css-value:                    $base3;
+} @else {
+  // Light backgrounds
+  $bgColor:                      $base3;
+  $textColor:                    $base03;
+  $bgColorHighlight:             lighten($base3,4%);
+  $css-value:                    $base03;
+}
