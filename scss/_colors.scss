@@ -39,11 +39,6 @@ $bgColor:                      null;
 $textColor:                    null;
 $bgColorHighlight:             null;
 
-// Tabs
-
-$tabBgColor:                   darken($base01, 10%);
-$tabTextColor:                 $base2;
-
 // JAVASCRIPT
 
 $javascript-keyword:                   $blue;
@@ -93,3 +88,8 @@ $external-link:                 $blue;
   $bgColorHighlight:             lighten($base3,4%);
   $css-value:                    $base03;
 }
+
+// Tabs
+
+$tabBgColor:                   $bgColor;
+$tabTextColor:                 $textColor;
