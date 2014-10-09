@@ -21,7 +21,7 @@ cd ~/Library/Application\ Support/Google/Chrome/Default/User\ StyleSheets/
 Windows:
 
 ```
-C:\Users\**Your Username**\AppData\Local\Google\Chrome\User Data\Default\User StyleSheets\
+%HOME%\AppData\Local\Google\Chrome\User Data\Default\User StyleSheets\
 ```
 
 Ubuntu (Chromium):
