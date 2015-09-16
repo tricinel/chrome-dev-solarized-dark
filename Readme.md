@@ -2,7 +2,7 @@
 
 Based on the color scheme from [http://ethanschoonover.com/solarized](http://ethanschoonover.com/solarized)
 
-### Instalation
+### Installation
 
 1. Find your Chrome's user stylesheets directory:
 
@@ -22,6 +22,12 @@ Windows:
 
 ```
 %HOME%\AppData\Local\Google\Chrome\User Data\Default\User StyleSheets\
+```
+
+Windows 10:
+
+```
+%userprofile%\AppData\Local\Google\Chrome\User Data\Default\User StyleSheets\
 ```
 
 Ubuntu (Chromium):
